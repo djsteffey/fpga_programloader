@@ -1,3 +1,3 @@
 # fpga_programloader
-[Instructions.pdf](http://USERNAME.github.io/REPONAME/docs/Intro.pdf)
+[Instructions.pdf](https://github.com/djsteffey/fpga_programloader/blob/master/instructions.pdf)
 
