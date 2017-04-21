@@ -1,0 +1,9 @@
+For those using Linux:
+
+1 - Get the source code from the program loader from the github repository (Program.cs and CSerialProgramLoader.cs)
+2 - Install mono and mono-mcs on your linux system.  The install procedure is different for each flavor of linux so google it for your distribution.
+3 - Copile the program with "mcs Program.cs CSerialProgramLoader.cs -o progloader.exe"
+4 - Follow the directions at "https://blog.mypapit.net/2008/05/how-to-use-usb-serial-port-converter-in-ubuntu.html" to get a serial port from your USB.  Follow the directions for when to plug in and unplug your board.
+5 - After the USB-Serial is setup run the program loader with "mono progloader.exe comport filename" where comport is the port identified from step 4 and filename is your compiled MARS assembly file.
+6 - Follow the directions the program tells you to do.  You MUST have already installed the hardware module in your design and put it on your board.
+7 - You can email me for assistance (djsteffey@gmail.com)
